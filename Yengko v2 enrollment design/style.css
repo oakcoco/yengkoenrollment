@@ -1,0 +1,128 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ariel", sans-serif ;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    padding: 20px 70px;
+    background: rgb(70, 89, 255);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+    
+.schoolname{
+    margin-right: auto; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    color:aliceblue;
+    padding-left: 15px;
+    cursor: default;
+    
+}
+.nav_links{
+    font-size: 17px;
+    margin-right: 250px;
+}
+.nav_links li{
+    text-decoration: none;
+    padding: 0px 7px;
+    display: inline-block;
+}
+li, a, button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color:rgb(241, 241, 241);
+    text-decoration: none;
+}
+body{
+    background-image: url("801e11606902184da02314ffe529ac16.jpg")
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: black;
+}
+.content{
+    margin-top: 14%;
+    text-align: center;
+}
+
+div.main{
+  width: 400px;
+  margin: 100px auto 0px auto;
+}
+h2{
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+div.register{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px soid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 15px
+  rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+form#register{
+  margin: 40px;
+}
+label{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style:;
+}
+input#name{
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow:inset 1px 1px 15px
+  rgba(255, 0, 0, 0.3);
+}
+input#submit{
+  width: 200px;
+  padding: 7px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(98, 135, 255);
+  color: #fff;
+  cursor:pointer;
+  border: 1px solid
+  rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 1px
+  rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+label,span,h2{
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.submit{
+    transition: all 0.3s ease 0s;
+}
+
+.submit:hover{
+    color: black;
+}
